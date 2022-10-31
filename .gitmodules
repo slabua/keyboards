@@ -1,0 +1,5 @@
+[submodule "kmk_firmware"]
+    path = kmk_firmware
+    url = git@github.com:slabua/kmk_firmware.git
+    branch = slabua
+
