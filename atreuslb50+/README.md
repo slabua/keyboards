@@ -1,4 +1,5 @@
 # AtreuSLB50+ Mechanical Keyboard
+[![License: GPLv3][GPLimg]][GPLurl]
 ###### tags: `Raspberry Pi` `RaspberryPi` `Raspberry` `Pi` `Pico` `RaspberryPiPico` `MicroPython`
 Status: Currently under development.
 
@@ -26,12 +27,12 @@ I am slowly finalising the firmware configuration and I will eventually put it o
 [Coming Soon]
 
 ## Repository
-[Coming Soon]
+[https://github.com/slabua/keyboards/tree/main/atreuslb50+](https://github.com/slabua/keyboards/tree/main/atreuslb50+)
 
 ## 3D Model
-3D model of AtreuSLB50+ v1 available on Thingiverse and Printables:
-https://www.thingiverse.com/thing:5458679
-https://www.printables.com/model/262446-atreuslb50-v1
+3D model of AtreuSLB50+ v1 also available on:  
+Thingiverse: https://www.thingiverse.com/thing:5458679  
+Printables: https://www.printables.com/model/262446-atreuslb50-v1
 
 ## Some photographs
 ![](https://preview.redd.it/by89l5iuvxr91.jpg?width=4032&format=pjpg&auto=webp&s=fdcf4890802f44207e813c551c8d05d4a425c93b)
@@ -53,3 +54,7 @@ https://www.printables.com/model/262446-atreuslb50-v1
 ![](https://preview.redd.it/xjj2dv3yvxr91.jpg?width=4032&format=pjpg&auto=webp&s=388d64ca4509c78ea6678420b1a73ccbb04189bf)
 
 ![](https://preview.redd.it/u2xzrteyvxr91.jpg?width=4032&format=pjpg&auto=webp&s=0b52b4458956fef54b64d0baa70c83ec2bb76906)
+
+
+[GPLimg]: https://img.shields.io/badge/License-GPLv3-blue.svg
+[GPLurl]: https://www.gnu.org/licenses/gpl-3.0
