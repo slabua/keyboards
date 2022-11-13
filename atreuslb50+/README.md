@@ -30,9 +30,9 @@ I am slowly finalising the firmware configuration and I will eventually put it o
 [https://github.com/slabua/keyboards/tree/main/atreuslb50+](https://github.com/slabua/keyboards/tree/main/atreuslb50+)
 
 ## 3D Model
-3D model of AtreuSLB50+ v1 also available on:  
+3D model of AtreuSLB50+ rev1 also available on:  
 Thingiverse: https://www.thingiverse.com/thing:5458679  
-Printables: https://www.printables.com/model/262446-atreuslb50-v1
+Printables: https://www.printables.com/model/262446-atreuslb50-rev1
 
 ## Some photographs
 ![](https://preview.redd.it/by89l5iuvxr91.jpg?width=4032&format=pjpg&auto=webp&s=fdcf4890802f44207e813c551c8d05d4a425c93b)
