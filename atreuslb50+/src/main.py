@@ -33,8 +33,8 @@ keyboard = KMKKeyboard()
 locks = LockStatus()
 mediakeys = MediaKeys()
 # rgb = RGB(pixel_pin=14, num_pixels=1)
-wpm = WPM(debug=True)
-keyboard.extensions = [locks, mediakeys, wpm]  # , rgb]
+wpm = WPM(debug=False)
+keyboard.extensions = [locks, mediakeys]  #, wpm]  # , rgb]
 
 # Modules
 layers = Layers()
