@@ -64,7 +64,7 @@ trackball = Trackball(i2c, mode=TrackballMode.MOUSE_MODE, handlers=[
 ])
 
 # OLED
-layers_names = ['0. Qwerty', '1. Sym | Nav', '2. Fun | Num',
+layers_names = ['0. Qwerty (test)', '1. Fun | Num', '2. Sym | Nav',
                 '3. Emoji', '4. Tarmak3', '5. Tarmak4', '6. Colemak']
 slblabs_logo = const(
     0x00000000000000000000000000000000000000000000000000000000000000000000c0e0f0f87c3c0c0602000000000000008080808080c0404020000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c0e0f0f038180c0c040404000000000000f8ffff0f010000000000000004020303030303010101000000000000000000000080c0e0f0f0f0f0f0f0f0f0f0f0f0e0e0c080000000f0f0f0f0e00000000000000000000000000000f0f0f0f0f0707070707070f0f0f0f0e0c08000000000000000000000000000000000000000000f1f3f3c38706060404000000000000000ffff1f00000000020286cefefcfc78300000000000000000000000000000000000070f1f1f3f3c3c78787878f8f0f1f3e3e3c3000000ffffffffff0000000000000000000000000000ffffffffff38383838383838387fffffffe780000000000000000000000000000000000000000000000000000000808080c040406060b0fff718180c0c0e06078383818180000020206060e0c0c0c0c08080000000000000070f1f3f3e3c3c3c3c3c3c3c3c3f3f1f1f0f0100003f3f3f3f3f3c3c3c3c3c3c3c3c3c3c3c3800003f3f3f3f3f383838383838383c3c3f1f1f0f030000000000000000000000000000000000040404020202030101010100000000000000ffff01000000000000000000818183c79ffefefcf8f09f3f3f1f1f0f0700000000000080c0c0c08000000000000000000000000000000000000000000000000000c0c0c0c000000000000000000000000000000000000000000000000000000000000000000000000000008000004040404040202020202030301010181898fb0f0c0c0c04060606070303038381c1f1fc7f7f3f1f0f01000000000000000000000000ffffffffff000000000000000000000080dcdedeceeeeeeefefcfcf80000ffffffff0e0e0e0e1efefcf8f000003c7cfefeeecececede9c9c00000000000000000000000040602030301818181c1c1c1c06060200000000000080f80f0100000000000000000000000101010100000000000000000000000000000000000000000f1f1f1f1f1c1c1c1c1c1c1c1c1c1c000f0f1f1f1818181c0f1f1f1f00000f0f1f1f1c1c1c1c1e1f0f070300000e0e1e1c1c1c1d1d1f0f0f0200000000000000000000000000000000000000000000000000000000000000080300000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)
@@ -155,28 +155,29 @@ emoji = cuss({
 # Keyboard mapping
 keyboard.keymap = [
 
-    [  # base: qwerty
-        KC.Q,      KC.W,      KC.E,      KC.R,      KC.T,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,
-        KC.A,      KC.S,      KC.D,      KC.F,      KC.G,      KC.OLED_TOG,                      KC.H,      KC.J,      KC.K,     KC.L,      KC.SCLN,
+    [  # base: qwerty (test)
+        KC.Q,      KC.W,      KC.E,      KC.R,      KC.T,      KC.OLED_TOG,           KC.MUTE,   KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,
+        KC.A,      KC.S,      KC.D,      KC.F,      KC.G,      KC.TB_NEXT_HANDLER,               KC.H,      KC.J,      KC.K,     KC.L,      KC.SCLN,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.N,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   ALTAGR,    KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
+        LSFTCFL,   KC.TAB,    OSLSFT,    ALTAGR,    KC.LCTRL,  KC.SPC,                KC.RSFT,   KC.BSPC,   KC.RALT,   KC.MINUS, KC.RSFT,   KC.ENT,
         KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     APPRGUI,  KC.QUOT,
     ],
 
-    [  # lower: sym/nav
-        KC.EXLM,   KC.AT,     KC.HASH,   KC.DLR,    KC.PERC,   _______,               ZOOM_RST,   KC.VOLU,   UNDO,      REDO,     XXXXXXX,   KC.HOME,
-        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   _______,                           KC.VOLD,   XXXXXXX,   XXXXXXX,  XXXXXXX,   KC.END,
-        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.CIRC,               KC.AMPR,    KC.MUTE,   XXXXXXX,   XXXXXXX,  XXXXXXX,   KC.PGUP,
-        TARMAK3,   _______,   _______,   _______,   _______,   KC.MB_LMB,             KC.MB_RMB,  _______,   _______,   KC.UP,    XXXXXXX,   KC.PGDOWN,
-        _______,   BASE,      XXXXXXX,                                                                       KC.LEFT,   KC.DOWN,  KC.RIGHT,
-    ],
 
-    [  # raise: fn/num
+    [  # lower: fn/num
         KC.F9,     KC.F10,    KC.F11,    KC.F12,    XXXXXXX,   _______,               ZOOM_RST,  KC.PAST,   KC.N7,     KC.N8,    KC.N9,     KC.BKDL,
         KC.F5,     KC.F6,     KC.F7,     KC.F8,     XXXXXXX,   _______,                          KC.PSLS,   KC.N4,     KC.N5,    KC.N6,     KC.PMNS,
         KC.F1,     KC.F2,     KC.F3,     KC.F4,     XXXXXXX,   KC.GRV,                KC.BSLS,   KC.INS,    KC.N1,     KC.N2,    KC.N3,     KC.PPLS,
-        _______,   _______,   _______,   _______,   _______,   _______,               _______,   KC.PSCR,   KC.LPRN,   KC.N0,    KC.RPRN,   _______,
-        _______,   _______,   KC.NLCK,                                                                      XXXXXXX,   KC.EQL,   KC.PDOT,
+        _______,   _______,   _______,   _______,   _______,   KC.MB_LMB,             KC.MB_RMB, KC.PSCR,   KC.LPRN,   KC.N0,    KC.RPRN,   _______,
+        _______,   _______,   XXXXXXX,                                                                      KC.NLCK,   KC.EQL,   KC.PDOT,
+    ],
+
+    [  # raise: sym/nav
+        KC.EXLM,   KC.AT,     KC.HASH,   KC.DLR,    KC.PERC,   _______,               ZOOM_RST,   KC.VOLU,   UNDO,      REDO,     KC.HOME,   KC.END,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   _______,                           KC.VOLD,   XXXXXXX,   XXXXXXX,  XXXXXXX,   KC.PGUP,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.CIRC,               KC.AMPR,    KC.MUTE,   XXXXXXX,   KC.UP,    XXXXXXX,   KC.PGDOWN,
+        TARMAK3,   _______,   _______,   _______,   _______,   _______,               _______,    _______,   KC.LEFT,   KC.DOWN,  KC.RIGHT,  _______,
+        _______,   BASE,      KC.CAPS,                                                                       XXXXXXX,   XXXXXXX,  XXXXXXX,
     ],
 
     [  # adjust: emoji
@@ -216,39 +217,39 @@ keyboard.keymap = [
 # Encoders mapping
 encoders.map = [
     (  # base: qwerty
-        (KC.VOLD, KC.VOLU, None,),
-        (KC.PGUP, KC.PGDOWN, None,),
         (KC.OLED_PRV, KC.OLED_NXT, None,),
+        (KC.VOLD, KC.VOLU, None,),
+        (KC.PGDOWN, KC.PGUP, None,),
     ),
     (  # lower: sym/nav
         (_______, _______, None,),
-        (ZOOM_OUT, ZOOM_IN, None,),
         (_______, _______, None,),
+        (ZOOM_OUT, ZOOM_IN, None,),
     ),
     (  # raise: fn/num
         (_______, _______, None,),
-        (ZOOM_OUT, ZOOM_IN, None,),
         (_______, _______, None,),
+        (ZOOM_OUT, ZOOM_IN, None,),
     ),
     (  # adjust: emoji
         (_______, _______, None,),
-        (ZOOM_OUT, ZOOM_IN, None,),
         (_______, _______, None,),
+        (ZOOM_OUT, ZOOM_IN, None,),
     ),
     (  # tarmak 3
-        (KC.VOLD, KC.VOLU, None,),
-        (KC.PGUP, KC.PGDOWN, None,),
         (KC.OLED_PRV, KC.OLED_NXT, None,),
+        (KC.VOLD, KC.VOLU, None,),
+        (KC.PGDOWN, KC.PGUP, None,),
     ),
     (  # tarmak 4
-        (KC.VOLD, KC.VOLU, None,),
-        (KC.PGUP, KC.PGDOWN, None,),
         (KC.OLED_PRV, KC.OLED_NXT, None,),
+        (KC.VOLD, KC.VOLU, None,),
+        (KC.PGDOWN, KC.PGUP, None,),
     ),
     (  # colemak
-        (KC.VOLD, KC.VOLU, None,),
-        (KC.PGUP, KC.PGDOWN, None,),
         (KC.OLED_PRV, KC.OLED_NXT, None,),
+        (KC.VOLD, KC.VOLU, None,),
+        (KC.PGDOWN, KC.PGUP, None,),
     ),
 ]
 
