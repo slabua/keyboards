@@ -3,7 +3,7 @@ import pwmio
 import time
 
 from kb import KMKKeyboard
-#import logos
+# import logos
 
 from kmk.consts import UnicodeMode
 from kmk.handlers.sequences import compile_unicode_string_sequences as cuss
@@ -12,9 +12,9 @@ from kmk.keys import KC
 
 from kmk.extensions.lock_status import LockStatus
 from kmk.extensions.media_keys import MediaKeys
-from kmk.extensions.oled_1306 import DisplayOLED, LogoScene, StatusScene, KeypressesScene
+from kmk.extensions.oled_1306 import DisplayOLED, LogoScene, StatusScene  # , KeypressesScene
 # from kmk.extensions.RGB import RGB
-from kmk.extensions.wpm import WPM
+# from kmk.extensions.wpm import WPM
 from kmk.modules.encoder import EncoderHandler
 from kmk.modules.layers import Layers
 from kmk.modules.modtap import ModTap
@@ -33,8 +33,8 @@ keyboard = KMKKeyboard()
 locks = LockStatus()
 mediakeys = MediaKeys()
 # rgb = RGB(pixel_pin=14, num_pixels=1)
-wpm = WPM(debug=False)
-keyboard.extensions = [locks, mediakeys]  #, wpm]  # , rgb]
+# wpm = WPM(debug=False)
+keyboard.extensions = [locks, mediakeys]  # , wpm]  # , rgb]
 
 # Modules
 layers = Layers()
