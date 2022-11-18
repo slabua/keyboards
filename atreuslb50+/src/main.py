@@ -168,16 +168,16 @@ keyboard.keymap = [
         KC.F9,     KC.F10,    KC.F11,    KC.F12,    XXXXXXX,   _______,               ZOOM_RST,  KC.PAST,   KC.N7,     KC.N8,    KC.N9,     KC.BKDL,
         KC.F5,     KC.F6,     KC.F7,     KC.F8,     XXXXXXX,   _______,                          KC.PSLS,   KC.N4,     KC.N5,    KC.N6,     KC.PMNS,
         KC.F1,     KC.F2,     KC.F3,     KC.F4,     XXXXXXX,   KC.GRV,                KC.BSLS,   KC.INS,    KC.N1,     KC.N2,    KC.N3,     KC.PPLS,
-        _______,   _______,   _______,   _______,   _______,   KC.MB_LMB,             KC.MB_RMB, KC.PSCR,   KC.LPRN,   KC.N0,    KC.RPRN,   _______,
-        _______,   _______,   XXXXXXX,                                                                      KC.NLCK,   KC.EQL,   KC.PDOT,
+        _______,   _______,   _______,   _______,   _______,   KC.MB_LMB,             KC.MB_RMB, _______,   KC.LPRN,   KC.N0,    KC.RPRN,   _______,
+        _______,   _______,   XXXXXXX,                                                                      XXXXXXX,   KC.EQL,   KC.PDOT,
     ],
 
     [  # raise: sym/nav
-        KC.EXLM,   KC.AT,     KC.HASH,   KC.DLR,    KC.PERC,   _______,               ZOOM_RST,   KC.VOLU,   UNDO,      REDO,     KC.HOME,   KC.END,
-        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   _______,                           KC.VOLD,   XXXXXXX,   XXXXXXX,  XXXXXXX,   KC.PGUP,
-        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.CIRC,               KC.AMPR,    KC.MUTE,   XXXXXXX,   KC.UP,    XXXXXXX,   KC.PGDOWN,
-        TARMAK3,   _______,   _______,   _______,   _______,   _______,               _______,    _______,   KC.LEFT,   KC.DOWN,  KC.RIGHT,  _______,
-        _______,   BASE,      KC.CAPS,                                                                       XXXXXXX,   XXXXXXX,  XXXXXXX,
+        KC.EXLM,   KC.CIRC,   KC.AMPR,   KC.DLR,    KC.PERC,   _______,               ZOOM_RST,  KC.VOLU,   UNDO,      REDO,     KC.HOME,   KC.BKDL,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   _______,                          KC.VOLD,   XXXXXXX,   XXXXXXX,  KC.END,    KC.PGUP,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.AT,                 KC.HASH,   KC.MUTE,   XXXXXXX,   KC.UP,    XXXXXXX,   KC.PGDOWN,
+        TARMAK3,   _______,   _______,   _______,   _______,   KC.NLCK,               KC.CAPS,   KC.PSCR,   KC.LEFT,   KC.DOWN,  KC.RIGHT,  _______,
+        _______,   BASE,      XXXXXXX,                                                                      XXXXXXX,   XXXXXXX,  XXXXXXX,
     ],
 
     [  # adjust: emoji
