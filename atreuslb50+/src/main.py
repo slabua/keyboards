@@ -103,7 +103,7 @@ LSFTCFL = KC.MT(KC.LSFT, KC.LCTRL, prefer_hold=False,
 APPRGUI = KC.MT(KC.APP, KC.RGUI, prefer_hold=False,
                 tap_interrupted=False, tap_time=200)
 OSLSFT = KC.OS(KC.LSFT)
-ALTAGR = KC.TD(KC.LALT, KC.RALT)
+LALTAGR = KC.TD(KC.LALT, KC.RALT)
 
 LOWER = KC.MO(1)
 RAISE = KC.MO(2)
@@ -159,8 +159,8 @@ keyboard.keymap = [
         KC.Q,      KC.W,      KC.E,      KC.R,      KC.T,      KC.OLED_TOG,           KC.MUTE,   KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,
         KC.A,      KC.S,      KC.D,      KC.F,      KC.G,      KC.TB_NEXT_HANDLER,               KC.H,      KC.J,      KC.K,     KC.L,      KC.SCLN,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.N,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   OSLSFT,    KC.TAB,    ALTAGR,    KC.LCTRL,  KC.SPC,                KC.RSFT,   KC.BSPC,   APPRGUI,   KC.MINUS, KC.RSFT,   KC.ENT,
-        KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     KC.RALT,  KC.QUOT,
+        LSFTCFL,   OSLSFT,    KC.TAB,    LALTAGR,   KC.LCTRL,  KC.SPC,                KC.RSFT,   KC.BSPC,   APPRGUI,   KC.MINUS, KC.RSFT,   KC.ENT,
+        KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     RALTAGR,  KC.QUOT,
     ],
 
 
@@ -184,7 +184,7 @@ keyboard.keymap = [
         KC.Q,      KC.W,      KC.E,      KC.R,      KC.T,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,
         KC.A,      KC.S,      KC.D,      KC.F,      KC.G,      KC.OLED_TOG,                      KC.H,      KC.J,      KC.K,     KC.L,      KC.SCLN,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.N,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   ALTAGR,    KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  emoji.PIEN,
+        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  emoji.PIEN,
         KC.GESC,   XXXXXXX,   LOWER,                                                                        TARMAK4,   COLEMAK,  BASE,
     ],
 
@@ -192,7 +192,7 @@ keyboard.keymap = [
         KC.Q,      KC.W,      KC.F,      KC.J,      KC.G,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,
         KC.A,      KC.R,      KC.S,      KC.T,      KC.D,      KC.OLED_TOG,                      KC.H,      KC.N,      KC.E,     KC.L,      KC.SCLN,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.K,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   ALTAGR,    KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
+        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
         KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     APPRGUI,  KC.QUOT,
     ],
 
@@ -200,7 +200,7 @@ keyboard.keymap = [
         KC.Q,      KC.W,      KC.F,      KC.P,      KC.G,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.J,      KC.U,      KC.I,     KC.Y,      KC.SCLN,
         KC.A,      KC.R,      KC.S,      KC.T,      KC.D,      KC.OLED_TOG,                      KC.H,      KC.N,      KC.E,     KC.L,      KC.O,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.K,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   ALTAGR,    KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
+        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
         KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     APPRGUI,  KC.QUOT,
     ],
 
@@ -208,7 +208,7 @@ keyboard.keymap = [
         KC.Q,      KC.W,      KC.F,      KC.P,      KC.G,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.J,      KC.L,      KC.U,     KC.Y,      KC.SCLN,
         KC.A,      KC.R,      KC.S,      KC.T,      KC.D,      KC.OLED_TOG,                      KC.H,      KC.N,      KC.E,     KC.I,      KC.O,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.K,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   ALTAGR,    KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
+        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
         KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     APPRGUI,  KC.QUOT,
     ],
 
