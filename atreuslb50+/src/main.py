@@ -188,22 +188,6 @@ keyboard.keymap = [
         KC.GESC,   XXXXXXX,   LOWER,                                                                        TARMAK4,   COLEMAK,  BASE,
     ],
 
-    [  # tarmak 3
-        KC.Q,      KC.W,      KC.F,      KC.J,      KC.G,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,
-        KC.A,      KC.R,      KC.S,      KC.T,      KC.D,      KC.OLED_TOG,                      KC.H,      KC.N,      KC.E,     KC.L,      KC.SCLN,
-        KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.K,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
-        KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     APPRGUI,  KC.QUOT,
-    ],
-
-    [  # tarmak 4
-        KC.Q,      KC.W,      KC.F,      KC.P,      KC.G,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.J,      KC.U,      KC.I,     KC.Y,      KC.SCLN,
-        KC.A,      KC.R,      KC.S,      KC.T,      KC.D,      KC.OLED_TOG,                      KC.H,      KC.N,      KC.E,     KC.L,      KC.O,
-        KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.K,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
-        KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     APPRGUI,  KC.QUOT,
-    ],
-
     [  # colemak
         KC.Q,      KC.W,      KC.F,      KC.P,      KC.G,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.J,      KC.L,      KC.U,     KC.Y,      KC.SCLN,
         KC.A,      KC.R,      KC.S,      KC.T,      KC.D,      KC.OLED_TOG,                      KC.H,      KC.N,      KC.E,     KC.I,      KC.O,
