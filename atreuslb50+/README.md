@@ -23,8 +23,8 @@ Finally I had the time to wrap up my little side project started about three mon
 The design started from a semi-automated customised process by forking an OpenSCAD hotswap pcb generator repository, subsequently heavily worked on Blender. I had also added cutouts for per-key rgb, but in the end I gave up the idea of hand wiring the LEDs. At least in this version which, for me, has been an insightful experience.
 I am slowly finalising the firmware configuration and I will eventually put it on github as usual. Wiring diagram and key layout will come along later.
 
-## Keymap
-[Coming Soon]
+## Keymap (dev)
+[![Keymap](https://user-images.githubusercontent.com/1002978/203805544-45ae45d0-ebbf-4b97-9460-aa897b3c93cc.png)](http://www.keyboard-layout-editor.com/#/gists/e1e9e5b6f24ec3cef3d0345b61fd87a2)
 
 ## Repository
 [https://github.com/slabua/keyboards/tree/main/atreuslb50+](https://github.com/slabua/keyboards/tree/main/atreuslb50+)
