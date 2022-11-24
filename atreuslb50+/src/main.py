@@ -98,7 +98,9 @@ _______ = KC.TRNS
 XXXXXXX = KC.NO
 
 # Custom keys
-LSFTCFL = KC.MT(KC.LSFT, KC.LCTRL, prefer_hold=False,
+LSFTALT = KC.MT(KC.LSFT, KC.LALT, prefer_hold=False,
+                tap_interrupted=False, tap_time=200)
+LSFTCTL = KC.MT(KC.LSFT, KC.LCTRL, prefer_hold=False,
                 tap_interrupted=False, tap_time=200)
 APPRGUI = KC.MT(KC.APP, KC.RGUI, prefer_hold=False,
                 tap_interrupted=False, tap_time=200)
@@ -110,9 +112,7 @@ RAISE = KC.MO(2)
 ADJUST = KC.LT(3, KC.LGUI)
 
 BASE = KC.DF(0)
-TARMAK3 = KC.DF(4)
-TARMAK4 = KC.DF(5)
-COLEMAK = KC.DF(6)
+COLEMAK = KC.DF(4)
 
 UNDO = KC.LCTRL(KC.Z)
 REDO = KC.LCTRL(KC.Y)
@@ -159,7 +159,7 @@ keyboard.keymap = [
         KC.Q,      KC.W,      KC.E,      KC.R,      KC.T,      KC.OLED_TOG,           KC.MUTE,   KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,
         KC.A,      KC.S,      KC.D,      KC.F,      KC.G,      KC.TB_NEXT_HANDLER,               KC.H,      KC.J,      KC.K,     KC.L,      KC.SCLN,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.N,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   OSLSFT,    KC.TAB,    ADJUST,    KC.LCTRL,  KC.SPC,                KC.RSFT,   KC.BSPC,   APPRGUI,   KC.MINUS, KC.RSFT,   KC.ENT,
+        LSFTALT,   OSLSFT,    KC.TAB,    ADJUST,    KC.LCTRL,  KC.SPC,                KC.RSFT,   KC.BSPC,   APPRGUI,   KC.MINUS, KC.RSFT,   KC.ENT,
         KC.GESC,   LALTAGR,   LOWER,                                                                        RAISE,     RALTAGR,  KC.QUOT,
     ],
 
@@ -184,7 +184,7 @@ keyboard.keymap = [
         KC.Q,      KC.W,      KC.E,      KC.R,      KC.T,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,
         KC.A,      KC.S,      KC.D,      KC.F,      KC.G,      KC.OLED_TOG,                      KC.H,      KC.J,      KC.K,     KC.L,      KC.SCLN,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.N,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  emoji.PIEN,
+        LSFTCTL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  emoji.PIEN,
         KC.GESC,   XXXXXXX,   LOWER,                                                                        TARMAK4,   COLEMAK,  BASE,
     ],
 
@@ -192,7 +192,7 @@ keyboard.keymap = [
         KC.Q,      KC.W,      KC.F,      KC.P,      KC.G,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.J,      KC.L,      KC.U,     KC.Y,      KC.SCLN,
         KC.A,      KC.R,      KC.S,      KC.T,      KC.D,      KC.OLED_TOG,                      KC.H,      KC.N,      KC.E,     KC.I,      KC.O,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.K,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCFL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
+        LSFTCTL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
         KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     APPRGUI,  KC.QUOT,
     ],
 
