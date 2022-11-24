@@ -10,6 +10,7 @@ from kmk.handlers.sequences import compile_unicode_string_sequences as cuss
 from kmk.handlers.sequences import send_string
 from kmk.keys import KC
 
+from kmk.extensions.buzzer import BuzzerType
 from kmk.extensions.lock_status import LockStatus
 from kmk.extensions.media_keys import MediaKeys
 from kmk.extensions.oled_1306 import DisplayOLED, LogoScene, StatusScene  # , KeypressesScene
@@ -30,11 +31,13 @@ i2c = io.I2C(scl=board.GP1, sda=board.GP0)
 keyboard = KMKKeyboard()
 
 # Extensions
+buzzertype = BuzzerType()
 locks = LockStatus()
 mediakeys = MediaKeys()
 # rgb = RGB(pixel_pin=14, num_pixels=1)
 # wpm = WPM(debug=False)
-keyboard.extensions = [locks, mediakeys]  # , wpm]  # , rgb]
+keyboard.extensions = [locks, mediakeys, buzzertype]  # , wpm]  # , rgb]
+# keyboard.extensions = [locks, mediakeys]  # , wpm]  # , rgb]
 
 # Modules
 layers = Layers()
@@ -106,6 +109,7 @@ APPRGUI = KC.MT(KC.APP, KC.RGUI, prefer_hold=False,
                 tap_interrupted=False, tap_time=200)
 OSLSFT = KC.OS(KC.LSFT)
 LALTAGR = KC.TD(KC.LALT, KC.RALT)
+RALTAGR = KC.TD(KC.RALT, KC.RGUI)
 
 LOWER = KC.MO(1)
 RAISE = KC.MO(2)
@@ -176,7 +180,7 @@ keyboard.keymap = [
         KC.EXLM,   KC.CIRC,   KC.AMPR,   KC.DLR,    KC.PERC,   _______,               ZOOM_RST,  KC.VOLU,   UNDO,      REDO,     KC.HOME,   KC.BSPC,
         XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   _______,                          KC.VOLD,   XXXXXXX,   XXXXXXX,  KC.END,    KC.PGUP,
         XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.AT,                 KC.HASH,   KC.MUTE,   XXXXXXX,   KC.UP,    XXXXXXX,   KC.PGDOWN,
-        TARMAK3,   _______,   _______,   _______,   _______,   KC.NLCK,               KC.CAPS,   KC.PSCR,   KC.LEFT,   KC.DOWN,  KC.RIGHT,  _______,
+        XXXXXXX,   _______,   _______,   _______,   _______,   KC.NLCK,               KC.CAPS,   KC.PSCR,   KC.LEFT,   KC.DOWN,  KC.RIGHT,  _______,
         _______,   BASE,      XXXXXXX,                                                                      XXXXXXX,   XXXXXXX,  KC.DEL,
     ],
 
@@ -185,7 +189,7 @@ keyboard.keymap = [
         KC.A,      KC.S,      KC.D,      KC.F,      KC.G,      KC.OLED_TOG,                      KC.H,      KC.J,      KC.K,     KC.L,      KC.SCLN,
         KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.N,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
         LSFTCTL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  emoji.PIEN,
-        KC.GESC,   XXXXXXX,   LOWER,                                                                        TARMAK4,   COLEMAK,  BASE,
+        KC.GESC,   XXXXXXX,   LOWER,                                                                        XXXXXXX,   COLEMAK,  BASE,
     ],
 
     [  # colemak
@@ -243,6 +247,7 @@ time.sleep(0.25)
 trackball.set_rgbw(4, 8, 32, 0)
 
 # Buzzer
+"""
 buzzer = pwmio.PWMOut(board.GP9, variable_frequency=True)
 OFF = 0
 ON = 2**15
@@ -252,6 +257,7 @@ time.sleep(0.1)
 buzzer.frequency = 1000
 time.sleep(0.1)
 buzzer.duty_cycle = OFF
+"""
 
 # Main
 if __name__ == '__main__':
