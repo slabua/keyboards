@@ -116,7 +116,6 @@ RAISE = KC.MO(2)
 ADJUST = KC.LT(3, KC.LGUI)
 
 BASE = KC.DF(0)
-COLEMAK = KC.DF(4)
 
 UNDO = KC.LCTRL(KC.Z)
 REDO = KC.LCTRL(KC.Y)
@@ -192,14 +191,6 @@ keyboard.keymap = [
         KC.GESC,   XXXXXXX,   LOWER,                                                                        XXXXXXX,   COLEMAK,  BASE,
     ],
 
-    [  # colemak
-        KC.Q,      KC.W,      KC.F,      KC.P,      KC.G,      KC.TB_NEXT_HANDLER,    KC.MUTE,   KC.J,      KC.L,      KC.U,     KC.Y,      KC.SCLN,
-        KC.A,      KC.R,      KC.S,      KC.T,      KC.D,      KC.OLED_TOG,                      KC.H,      KC.N,      KC.E,     KC.I,      KC.O,
-        KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,      KC.LBRC,               KC.RBRC,   KC.K,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,
-        LSFTCTL,   KC.TAB,    OSLSFT,    KC.CAPS,   LALTAGR,   KC.SPC,                KC.SPC,    KC.RALT,   KC.BSPC,   KC.RSFT,  KC.MINUS,  KC.ENT,
-        KC.GESC,   ADJUST,    LOWER,                                                                        RAISE,     APPRGUI,  KC.QUOT,
-    ],
-
 ]
 
 # Encoders mapping
@@ -223,21 +214,6 @@ encoders.map = [
         (_______, _______, None,),
         (_______, _______, None,),
         (ZOOM_OUT, ZOOM_IN, None,),
-    ),
-    (  # tarmak 3
-        (KC.OLED_PRV, KC.OLED_NXT, None,),
-        (KC.VOLD, KC.VOLU, None,),
-        (KC.PGDOWN, KC.PGUP, None,),
-    ),
-    (  # tarmak 4
-        (KC.OLED_PRV, KC.OLED_NXT, None,),
-        (KC.VOLD, KC.VOLU, None,),
-        (KC.PGDOWN, KC.PGUP, None,),
-    ),
-    (  # colemak
-        (KC.OLED_PRV, KC.OLED_NXT, None,),
-        (KC.VOLD, KC.VOLU, None,),
-        (KC.PGDOWN, KC.PGUP, None,),
     ),
 ]
 
