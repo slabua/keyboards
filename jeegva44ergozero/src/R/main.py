@@ -125,21 +125,21 @@ keyboard.keymap = [
         KC.GESC,   KC.Q,      KC.W,      KC.E,      KC.R,      KC.T,                            KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,      KC.MINUS,
         KC.TAB,    KC.A,      KC.S,      KC.D,      KC.F,      KC.G,                            KC.H,      KC.J,      KC.K,     KC.L,      KC.SCLN,   KC.QUOT,
         KC.LSFT,   KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,                            KC.N,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,   KC.RSFT,
-        KC.LALT,   KC.LCTRL,  LOWER,     KC.SPC,                                                KC.ENT,    RAISE,     KC.BSPC,  RALTGRA,
+        KC.LALT,   LOWER,     KC.LCTRL,  KC.SPC,                                                KC.ENT,    KC.BSPC,   RAISE,    RALTGRA,
     ],
 
     [  # lower: sym/num
         _______,   KC.N1,     KC.N2,     KC.N3,     KC.N4,     KC.N5,                           KC.N6,     KC.N7,     KC.N8,    KC.N9,     KC.N0,     KC.PPLS,
         KC.PIPE,   KC.EXLM,   KC.AT,     KC.HASH,   KC.DLR,    KC.PERC,                         KC.CIRC,   KC.AMPR,   KC.PAST,  XXXXXXX,   XXXXXXX,   KC.EQL,
         XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.LCBR,   KC.LBRC,   KC.LPRN,                         KC.RPRN,   KC.RBRC,   KC.RCBR,  XXXXXXX,   KC.BSLS,   KC.ENT,
-        _______,   _______,   XXXXXXX,   _______,                                               _______,   XXXXXXX,   KC.DEL,   _______,
+        _______,   XXXXXXX,   _______,   _______,                                               _______,   KC.DEL,    XXXXXXX,  _______,
     ],
 
     [  # raise: fn/nav
         KC.F1,     KC.F2,     KC.F3,     KC.F4,     KC.F5,     KC.F6,                           KC.F7,     KC.F8,     KC.F9,    KC.F10,    KC.F11,    KC.F12,
         XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                         KC.VOLU,   KC.HOME,   KC.UP,    KC.END,    KC.GRV,    KC.PGUP,
         XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                         KC.VOLD,   KC.LEFT,   KC.DOWN,  KC.RIGHT,  KC.PSCR,   KC.PGDOWN,
-        ADJUST,    _______,   XXXXXXX,   _______,                                               _______,   XXXXXXX,   _______,  _______,
+        ADJUST,    XXXXXXX,   _______,   _______,                                               _______,   _______,   XXXXXXX,  _______,
     ],
 
 ]
