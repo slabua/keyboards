@@ -12,7 +12,7 @@ from kmk.keys import KC
 
 from kmk.extensions.lock_status import LockStatus
 from kmk.extensions.media_keys import MediaKeys
-# from kmk.extensions.RGB import RGB
+from kmk.extensions.RGB import RGB
 # from kmk.extensions.wpm import WPM
 from kmk.modules.layers import Layers
 from kmk.modules.modtap import ModTap
@@ -29,7 +29,7 @@ keyboard.debug_enabled = True
 # Extensions
 locks = LockStatus()
 mediakeys = MediaKeys()
-# rgb = RGB(pixel_pin=14, num_pixels=1)
+rgb = RGB(pixel_pin=board.GP16, num_pixels=1)
 # wpm = WPM(debug=False)
 keyboard.extensions = [locks, mediakeys]  # , wpm]  # , rgb]
 
