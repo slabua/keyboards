@@ -22,7 +22,7 @@ My second keyboard designed from scratch, this time split.
 TODO
 
 ## Keymap (dev)
-TODO
+[![Keymap](https://user-images.githubusercontent.com/1002978/220036325-7f219578-1cac-4522-a279-0140966fc285.png)](http://www.keyboard-layout-editor.com/#/gists/682da89ee55639fe9fc0c6a14366d514)
 
 ## Repository
 [https://github.com/slabua/keyboards/tree/main/jeegva44ergozero](https://github.com/slabua/keyboards/tree/main/jeegva44ergozero)
