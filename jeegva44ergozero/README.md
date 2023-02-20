@@ -46,6 +46,10 @@ Printables: https://www.printables.com/model/404303-jeegva44-ergozero-rev1
 
 ![](https://user-images.githubusercontent.com/1002978/220078101-3dfe218e-875e-49f1-8cbd-50827f1ecbfe.png)
 
+![](https://user-images.githubusercontent.com/1002978/220088277-dccbc2e6-9317-4538-8717-1b0355c5082b.png)
+
+![](https://user-images.githubusercontent.com/1002978/220088373-1304f527-4478-45a1-bf85-fd26ca7a95b8.png)
+
 
 [GPLimg]: https://img.shields.io/badge/License-GPLv3-blue.svg
 [GPLurl]: https://www.gnu.org/licenses/gpl-3.0
