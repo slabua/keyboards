@@ -128,10 +128,17 @@ keyboard.keymap = [
         KC.LALT,   LOWER,     KC.LCTRL,  KC.SPC,                                                KC.ENT,    KC.BSPC,   RAISE,    RALTGRA,
     ],
 
+    # [  # lower: sym/num
+    #     _______,   KC.N1,     KC.N2,     KC.N3,     KC.N4,     KC.N5,                           KC.N6,     KC.N7,     KC.N8,    KC.N9,     KC.N0,     KC.PPLS,
+    #     KC.PIPE,   KC.EXLM,   KC.AT,     KC.HASH,   KC.DLR,    KC.PERC,                         KC.CIRC,   KC.AMPR,   KC.PAST,  XXXXXXX,   XXXXXXX,   KC.EQL,
+    #     XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.LCBR,   KC.LBRC,   KC.LPRN,                         KC.RPRN,   KC.RBRC,   KC.RCBR,  XXXXXXX,   KC.BSLS,   KC.ENT,
+    #     _______,   XXXXXXX,   _______,   _______,                                               _______,   KC.DEL,    XXXXXXX,  _______,
+    # ],
+
     [  # lower: sym/num
-        _______,   KC.N1,     KC.N2,     KC.N3,     KC.N4,     KC.N5,                           KC.N6,     KC.N7,     KC.N8,    KC.N9,     KC.N0,     KC.PPLS,
-        KC.PIPE,   KC.EXLM,   KC.AT,     KC.HASH,   KC.DLR,    KC.PERC,                         KC.CIRC,   KC.AMPR,   KC.PAST,  XXXXXXX,   XXXXXXX,   KC.EQL,
-        XXXXXXX,   XXXXXXX,   XXXXXXX,   KC.LCBR,   KC.LBRC,   KC.LPRN,                         KC.RPRN,   KC.RBRC,   KC.RCBR,  XXXXXXX,   KC.BSLS,   KC.ENT,
+        _______,   KC.EXLM,   KC.AT,     KC.HASH,   KC.DLR,    KC.LPRN,                         KC.RPRN,   KC.N7,     KC.N8,    KC.N9,     KC.PAST,   KC.PPLS,
+        KC.PIPE,   KC.CIRC,   KC.AMPR,   KC.PAST,   KC.PERC,   KC.LBRC,                         KC.RBRC,   KC.N4,     KC.N5,    KC.N6,     XXXXXXX,   KC.EQL,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                         KC.N0,     KC.N1,     KC.N2,    KC.N3,     KC.BSLS,   KC.ENT,
         _______,   XXXXXXX,   _______,   _______,                                               _______,   KC.DEL,    XXXXXXX,  _______,
     ],
 
