@@ -1,5 +1,4 @@
 import board
-import time
 
 from kb import KMKKeyboard
 # from kb import data_pin
