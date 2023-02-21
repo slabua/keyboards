@@ -11,6 +11,7 @@ from kmk.keys import KC
 from kmk.extensions.lock_status import LockStatus
 from kmk.extensions.media_keys import MediaKeys
 from kmk.extensions.RGB import RGB
+from kmk.extensions.rgb import AnimationModes
 # from kmk.extensions.wpm import WPM
 from kmk.modules.layers import Layers
 from kmk.modules.modtap import ModTap
@@ -26,9 +27,26 @@ keyboard.debug_enabled = True
 # Extensions
 locks = LockStatus()
 mediakeys = MediaKeys()
-rgb = RGB(pixel_pin=board.GP16, num_pixels=1)
+rgb = RGB(
+    pixel_pin=board.GP16,
+    num_pixels=1,
+    val_limit=5,
+    hue_default=40,
+    sat_default=255,
+    rgb_order=(1, 0, 2),  # GRB WS2812
+    val_default=10,
+    hue_step=1,
+    sat_step=1,
+    val_step=1,
+    animation_speed=10,
+    breathe_center=1,  # 1.0-2.7
+    knight_effect_length=3,
+    animation_mode=AnimationModes.STATIC,
+    reverse_animation=False,
+    refresh_rate=60,
+)
 # wpm = WPM(debug=False)
-keyboard.extensions = [locks, mediakeys]  # , wpm]  # , rgb]
+keyboard.extensions = [locks, mediakeys, rgb]  # , wpm]  # , rgb]
 
 # Modules
 layers = Layers()
@@ -132,7 +150,7 @@ keyboard.keymap = [
     [  # lower: sym/num
         _______,   KC.EXLM,   KC.AT,     KC.HASH,   KC.DLR,    KC.LPRN,                         KC.RPRN,   KC.N7,     KC.N8,    KC.N9,     KC.PAST,   KC.PPLS,
         KC.PIPE,   KC.CIRC,   KC.AMPR,   KC.PAST,   KC.PERC,   KC.LBRC,                         KC.RBRC,   KC.N4,     KC.N5,    KC.N6,     XXXXXXX,   KC.EQL,
-        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                         KC.N0,     KC.N1,     KC.N2,    KC.N3,     KC.BSLS,   KC.ENT,
+        XXXXXXX,   KC.RGB_MODE_RAINBOW,  KC.RGB_MODE_PLAIN,    KC.RGB_HUD,   KC.RGB_HUI,   KC.RGB_TOG,                          KC.N0,     KC.N1,     KC.N2,    KC.N3,     KC.BSLS,   KC.ENT,
         _______,   XXXXXXX,   _______,   _______,                                               _______,   KC.DEL,    XXXXXXX,  _______,
     ],
 
