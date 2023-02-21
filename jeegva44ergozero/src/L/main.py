@@ -1,5 +1,4 @@
 import board
-import pwmio
 import time
 
 from kb import KMKKeyboard
