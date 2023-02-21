@@ -19,7 +19,6 @@ from kmk.modules.mouse_keys import MouseKeys
 from kmk.modules.oneshot import OneShot
 from kmk.modules.split import Split, SplitType, SplitSide
 from kmk.modules.tapdance import TapDance
-from micropython import const
 
 
 keyboard = KMKKeyboard()
@@ -95,8 +94,6 @@ emoji = cuss({
     'FACE_SWEAT_SMILE': r'😅',
     'FACE_THINKING': r'🤔',
     'FIRE': r'🔥',
-    'FLAG_CA': r'🇨🇦',
-    'FLAG_US': r'🇺🇸',
     'HAND_CLAP': r'👏',
     'HAND_HORNS': r'🤘',
     'HAND_OK': r'👌',
@@ -104,7 +101,6 @@ emoji = cuss({
     'HAND_THUMB_UP': r'👍',
     'HAND_WAVE': r'👋',
     'HEART': r'❤️',
-    'MAPLE_LEAF': r'🍁',
     'PIEN': r'🥺',
     'POOP': r'💩',
     'TADA': r'🎉',
