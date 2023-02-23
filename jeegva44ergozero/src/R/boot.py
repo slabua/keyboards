@@ -1,7 +1,11 @@
 import supervisor
 # import storage
 # import usb_cdc
+import time
 import usb_hid
+
+
+time.sleep(10)
 
 supervisor.set_next_stack_limit(4096 + 4096)
 
