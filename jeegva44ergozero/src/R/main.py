@@ -86,6 +86,7 @@ APPRGUI = KC.MT(KC.APP, KC.RGUI, prefer_hold=False,
                 tap_interrupted=False, tap_time=200)
 OSLSFT = KC.OS(KC.LSFT)
 LALTAGR = KC.TD(KC.LALT, KC.RALT)
+LALTGUI = KC.TD(KC.LALT, KC.LGUI)
 RALTAGR = KC.TD(KC.RALT, KC.RGUI)
 RALTGRA = KC.TD(KC.RGUI, KC.RALT)
 
@@ -137,7 +138,7 @@ keyboard.keymap = [
         KC.GESC,   KC.Q,      KC.W,      KC.E,      KC.R,      KC.T,                            KC.Y,      KC.U,      KC.I,     KC.O,      KC.P,      KC.MINUS,
         KC.TAB,    KC.A,      KC.S,      KC.D,      KC.F,      KC.G,                            KC.H,      KC.J,      KC.K,     KC.L,      KC.SCLN,   KC.QUOT,
         KC.LSFT,   KC.Z,      KC.X,      KC.C,      KC.V,      KC.B,                            KC.N,      KC.M,      KC.COMM,  KC.DOT,    KC.SLSH,   KC.RSFT,
-        KC.LALT,   LOWER,     KC.LCTRL,  KC.SPC,                                                KC.ENT,    KC.BSPC,   RAISE,    RALTGRA,
+        LALTGUI,   LOWER,     KC.LCTRL,  KC.SPC,                                                KC.ENT,    KC.BSPC,   RAISE,    RALTGRA,
     ],
 
     # [  # lower: sym/num
