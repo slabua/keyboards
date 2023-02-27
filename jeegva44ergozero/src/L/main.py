@@ -152,14 +152,14 @@ keyboard.keymap = [
         _______,   KC.EXLM,   KC.AT,     KC.HASH,   KC.DLR,    KC.LPRN,                         KC.RPRN,   KC.N7,     KC.N8,    KC.N9,     KC.PAST,   KC.PPLS,
         KC.PIPE,   KC.CIRC,   KC.AMPR,   KC.PAST,   KC.PERC,   KC.LBRC,                         KC.RBRC,   KC.N4,     KC.N5,    KC.N6,     XXXXXXX,   KC.EQL,
         XXXXXXX,   KC.RGB_MODE_RAINBOW,  KC.RGB_MODE_PLAIN,    KC.RGB_HUD,   KC.RGB_HUI,   KC.RGB_TOG,                          KC.N0,     KC.N1,     KC.N2,    KC.N3,     KC.BSLS,   KC.ENT,
-        _______,   XXXXXXX,   _______,   _______,                                               _______,   KC.DEL,    XXXXXXX,  _______,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   _______,                                               _______,   KC.DEL,    XXXXXXX,  XXXXXXX,
     ],
 
     [  # raise: fn/nav
         KC.F1,     KC.F2,     KC.F3,     KC.F4,     KC.F5,     KC.F6,                           KC.F7,     KC.F8,     KC.F9,    KC.F10,    KC.F11,    KC.F12,
         XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                         KC.VOLU,   KC.HOME,   KC.UP,    KC.END,    KC.GRV,    KC.PGUP,
         XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                         KC.VOLD,   KC.LEFT,   KC.DOWN,  KC.RIGHT,  KC.PSCR,   KC.PGDOWN,
-        ADJUST,    XXXXXXX,   _______,   _______,                                               _______,   _______,   XXXXXXX,  _______,
+        ADJUST,    XXXXXXX,   XXXXXXX,   _______,                                               _______,   XXXXXXX,   XXXXXXX,  XXXXXXX,
     ],
 
 ]
