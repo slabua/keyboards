@@ -36,6 +36,8 @@ Thingiverse: https://www.thingiverse.com/thing:5866262
 Printables: https://www.printables.com/model/404303-jeegva44-ergozero-rev1
 
 ## Some photographs and renders
+![](https://user-images.githubusercontent.com/1002978/222178560-45b249e8-e24e-4aea-a9ae-603dd13e6e6e.png)
+
 ![](https://user-images.githubusercontent.com/1002978/220076736-48311ead-f571-4514-94b0-c20eeff6a3e7.png)
 
 ![](https://user-images.githubusercontent.com/1002978/220076775-9cc11e6d-384e-45f6-b55f-16183a347f13.png)
