@@ -24,7 +24,7 @@ I wanted a portable split keyboard with a gentle vertical stagger, sixth column 
 I also wanted to learn more about proper CAD design, so this time I ditched Blender and I designed everything from scratch in Onshape.
 
 ## Keymap (dev)
-[![Keymap](https://user-images.githubusercontent.com/1002978/221416488-30dd84c1-55f6-4757-80c7-fd5d189aff51.png)](http://www.keyboard-layout-editor.com/#/gists/682da89ee55639fe9fc0c6a14366d514)
+[![Keymap](https://user-images.githubusercontent.com/1002978/222177492-bc7ca3c8-af7c-4849-bec1-c8bd6e0b306d.png)](http://www.keyboard-layout-editor.com/#/gists/682da89ee55639fe9fc0c6a14366d514)
 
 ## Repository
 [https://github.com/slabua/keyboards/tree/main/jeegva44ergozero](https://github.com/slabua/keyboards/tree/main/jeegva44ergozero)

@@ -101,6 +101,8 @@ REDO = KC.LCTRL(KC.Y)
 ZOOM_IN = KC.LCTRL(KC.EQUAL)
 ZOOM_OUT = KC.LCTRL(KC.MINUS)
 ZOOM_RST = KC.LCTRL(KC.N0)
+PREVWRD = KC.LCTRL(KC.LEFT)
+NEXTWRD = KC.LCTRL(KC.RIGHT)
 
 emoji = cuss({
     # Emoji
@@ -157,7 +159,7 @@ keyboard.keymap = [
 
     [  # raise: fn/nav
         KC.F1,     KC.F2,     KC.F3,     KC.F4,     KC.F5,     KC.F6,                           KC.F7,     KC.F8,     KC.F9,    KC.F10,    KC.F11,    KC.F12,
-        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                         KC.VOLU,   KC.HOME,   KC.UP,    KC.END,    KC.GRV,    KC.PGUP,
+        XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                         KC.VOLU,   PREVWRD,   KC.UP,    NEXTWRD,   KC.GRV,    KC.PGUP,
         XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,   XXXXXXX,                         KC.VOLD,   KC.LEFT,   KC.DOWN,  KC.RIGHT,  KC.PSCR,   KC.PGDOWN,
         ADJUST,    XXXXXXX,   XXXXXXX,   _______,                                               _______,   XXXXXXX,   XXXXXXX,  XXXXXXX,
     ],
