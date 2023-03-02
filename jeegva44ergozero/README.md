@@ -16,6 +16,7 @@ My second keyboard designed from scratch, this time split.
 - 28x M2 5mm screws
 - 14x M2 10mm stand-offs
 - 4x M4 Low profile brass heat inserts
+- 4x M4 6~8mm Socket cap head screws
 - 46u Round hole female pin header
 - 3D printed case, plate, feet
 
