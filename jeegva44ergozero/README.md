@@ -17,6 +17,7 @@ My second keyboard designed from scratch, this time split.
 - 14x M2 10mm stand-offs
 - 4x M4 Low profile brass heat inserts
 - 4x M4 6~8mm Socket cap head screws
+- 8x 10mm Rubber feet
 - 46u Round hole female pin header
 - 3D printed case, plate, feet
 
@@ -37,7 +38,7 @@ Thingiverse: https://www.thingiverse.com/thing:5866262
 Printables: https://www.printables.com/model/404303-jeegva44-ergozero-rev1
 
 ## Some photographs and renders
-![](https://user-images.githubusercontent.com/1002978/222178560-45b249e8-e24e-4aea-a9ae-603dd13e6e6e.png)
+![](https://user-images.githubusercontent.com/1002978/227757296-3444a756-7c1d-40c5-be6f-ea894601a2e2.png)
 
 ![](https://user-images.githubusercontent.com/1002978/220076736-48311ead-f571-4514-94b0-c20eeff6a3e7.png)
 
