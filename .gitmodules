@@ -1,8 +1,8 @@
 [submodule "kmk_firmware"]
-    path = kmk_firmware
+	path = atreuslb50+/kmk_firmware
     url = git@github.com:slabua/kmk_firmware.git
     branch = slabua
 
 [submodule "zmk-config-saru48wplus"]
-	path = zmk-config-saru48wplus
+	path = saru48wplus/zmk-config-saru48wplus
 	url = git@github.com:slabua/zmk-config-saru48wplus.git
