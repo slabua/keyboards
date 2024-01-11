@@ -34,9 +34,9 @@ Different MCU, different firmware.
 
 ## 3D Model
 3D model of Saru48W+ rev1 also available on:
-Onshape: [[Link] (Coming Soon)](TODO)
-Thingiverse: https://www.thingiverse.com/thing:6428317
-Printables: https://www.printables.com/model/717305-saru48w-rev1
+Onshape: [[Link] (Coming Soon)](TODO)  
+Thingiverse: https://www.thingiverse.com/thing:6428317  
+Printables: https://www.printables.com/model/717305-saru48w-rev1  
 
 ## Some photographs
 ![image](https://github.com/slabua/keyboards/assets/1002978/a5bd9e83-073a-483c-a24f-62efe0b918cd)
