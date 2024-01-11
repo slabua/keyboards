@@ -32,14 +32,14 @@ Different MCU, different firmware.
 ## Repository
 [https://github.com/slabua/keyboards/tree/main/saru48wplus](https://github.com/slabua/keyboards/tree/main/saru48wplus)
 
-## 3D Model (Coming Soon)
+## 3D Model
 3D model of Saru48W+ rev1 also available on:
-Onshape: [[Link]](TODO)
-Thingiverse: TODO
-Printables: TODO
+Onshape: [[Link] (Coming Soon)](TODO)
+Thingiverse: https://www.thingiverse.com/thing:6428317
+Printables: https://www.printables.com/model/717305
 
 ## Some photographs
-![image](https://github.com/slabua/keyboards/assets/1002978/7cbdbf2c-9173-44c3-ab9f-07c1b83caa7c)
+![image](https://github.com/slabua/keyboards/assets/1002978/a5bd9e83-073a-483c-a24f-62efe0b918cd)
 ![image](https://github.com/slabua/keyboards/assets/1002978/f49a0240-3b6b-4026-83d5-b066946d8653)
 ![image](https://github.com/slabua/keyboards/assets/1002978/4909f4bc-c54f-4fd0-8d46-6a991f3022b0)
 ![image](https://github.com/slabua/keyboards/assets/1002978/507086c0-2434-46b4-9895-2915bd90a5b4)
