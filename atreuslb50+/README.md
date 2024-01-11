@@ -16,7 +16,7 @@ Finally I had the time to wrap up my little side project started about three mon
 - 1x EVQWGD001 rotary encoder
 - 1x Pimoroni IIC trackball breakout
 - 1x Active buzzer
-- 2x micro switches (bootsel, reset)
+- 2x micro push buttons (bootsel, reset)
 - 3D printed case (5-10° tilt), plate, pcb
 
 ## Story
@@ -30,8 +30,8 @@ I am slowly finalising the firmware configuration and I will eventually put it o
 [https://github.com/slabua/keyboards/tree/main/atreuslb50+](https://github.com/slabua/keyboards/tree/main/atreuslb50+)
 
 ## 3D Model
-3D model of AtreuSLB50+ rev1 also available on:  
-Thingiverse: https://www.thingiverse.com/thing:5458679  
+3D model of AtreuSLB50+ rev1 also available on:
+Thingiverse: https://www.thingiverse.com/thing:5458679
 Printables: https://www.printables.com/model/262446-atreuslb50-rev1
 
 ## Some photographs

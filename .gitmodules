@@ -4,5 +4,5 @@
     branch = slabua
 
 [submodule "zmk-config-saru48wplus"]
-	path = saru48wplus/zmk-config-saru48wplus
+	path = saru48wplus/src/zmk-config-saru48wplus
 	url = git@github.com:slabua/zmk-config-saru48wplus.git
