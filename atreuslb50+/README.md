@@ -8,7 +8,7 @@ Status: COMPLETED.
 
 Finally I had the time to wrap up my little side project started about three months ago, and I thought to share it here. Although inspired by the Atreus, I couldn't quite find the right compromise among the non-split ergo keyboards, so I decided to make my own.
 
-## Components:
+## Components
 - 1x RP2040 (KMK on Raspberry Pi Pico), USB-C port
 - 50x switches
 - 1x SSD1306 128x64px 0.96in IIC OLED display
@@ -30,8 +30,8 @@ I am slowly finalising the firmware configuration and I will eventually put it o
 [https://github.com/slabua/keyboards/tree/main/atreuslb50+](https://github.com/slabua/keyboards/tree/main/atreuslb50+)
 
 ## 3D Model
-3D model of AtreuSLB50+ rev1 also available on:
-Thingiverse: https://www.thingiverse.com/thing:5458679
+3D model of AtreuSLB50+ rev1 also available on:  
+Thingiverse: https://www.thingiverse.com/thing:5458679  
 Printables: https://www.printables.com/model/262446-atreuslb50-rev1
 
 ## Some photographs
