@@ -8,7 +8,7 @@ Status: Currently under development.
 
 My third keyboard designed from scratch, this time with Bluetooth connectivity.
 
-## Components:
+## Components
 - 1x nice!nano (ZMK), USB-C and Bluetooth
 - 1x 3.7V 503040 600mAh LiPo battery
 - 48x switches
@@ -33,7 +33,7 @@ Different MCU, different firmware.
 [https://github.com/slabua/keyboards/tree/main/saru48wplus](https://github.com/slabua/keyboards/tree/main/saru48wplus)
 
 ## 3D Model
-3D model of Saru48W+ rev1 also available on:
+3D model of Saru48W+ rev1 also available on:  
 Onshape: [[Link] (Coming Soon)](TODO)  
 Thingiverse: https://www.thingiverse.com/thing:6428317  
 Printables: https://www.printables.com/model/717305-saru48w-rev1
