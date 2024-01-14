@@ -8,7 +8,7 @@ Status: COMPLETED.
 
 My second keyboard designed from scratch, this time split.
 
-## Components:
+## Components
 - 2x RP2040 (KMK on Waveshare RP2040-Zero), USB-C port
 - 44x switches
 - 2x TRRS breakout boards
@@ -32,9 +32,9 @@ I also wanted to learn more about proper CAD design, so this time I ditched Blen
 [https://github.com/slabua/keyboards/tree/main/jeegva44ergozero](https://github.com/slabua/keyboards/tree/main/jeegva44ergozero)
 
 ## 3D Model
-3D model of JeegVa44 ErgoZero rev1 also available on:
-Onshape: [[Link]](https://cad.onshape.com/documents/5100a1aea8e406302df5bca3/w/c11b98ab1821eb9b6ec6d694/e/c7ba09cd25f0a52e98e90cc7?renderMode=0&uiState=63f3134e972d0e62899c2fd1)
-Thingiverse: https://www.thingiverse.com/thing:5866262
+3D model of JeegVa44 ErgoZero rev1 also available on:  
+Onshape: [[Link]](https://cad.onshape.com/documents/5100a1aea8e406302df5bca3/w/c11b98ab1821eb9b6ec6d694/e/c7ba09cd25f0a52e98e90cc7?renderMode=0&uiState=63f3134e972d0e62899c2fd1)  
+Thingiverse: https://www.thingiverse.com/thing:5866262  
 Printables: https://www.printables.com/model/404303-jeegva44-ergozero-rev1
 
 ## Some photographs and renders
