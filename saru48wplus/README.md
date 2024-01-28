@@ -34,8 +34,8 @@ Different MCU, different firmware.
 
 ## 3D Model
 3D model of Saru48W+ rev1 also available on:
-Onshape: [[Link] (Coming Soon)](TODO)
-Thingiverse: https://www.thingiverse.com/thing:6428317
+Onshape: [[Link] (Coming Soon)](TODO)  
+Thingiverse: https://www.thingiverse.com/thing:6428317  
 Printables: https://www.printables.com/model/717305-saru48w-rev1
 
 ## Some photographs [[More]](./doc/photos.md)
