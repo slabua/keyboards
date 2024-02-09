@@ -29,6 +29,10 @@ Different MCU, different firmware.
 ## Keymap (dev)
 [![Keymap](https://github.com/slabua/keyboards/assets/1002978/c1b7970f-9b77-41bf-9245-82fdb27a36e3)](http://www.keyboard-layout-editor.com/#/gists/8c13f3b0b67861c5a3c0984de046201e)
 
+## Wiring
+![Wiring](https://github.com/slabua/keyboards/assets/1002978/83184bdd-ee96-43af-83b3-58b1c80f69a0)
+
+
 ## Repository
 [https://github.com/slabua/keyboards/tree/main/saru48wplus](https://github.com/slabua/keyboards/tree/main/saru48wplus)
 
