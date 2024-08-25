@@ -27,7 +27,7 @@ I wanted a more compact portable keyboard with Bluetooth connectivity and an enc
 Different MCU, different firmware.
 
 ## Keymap (dev)
-[![Keymap](https://github.com/slabua/zmk-config-saru48wplus/assets/1002978/43f81249-28bc-498b-8c6f-22d4e38f3f3d)](http://www.keyboard-layout-editor.com/#/gists/8c13f3b0b67861c5a3c0984de046201e)
+[![Keymap](https://github.com/user-attachments/assets/6fd52342-d6b6-4f0a-aec7-d79f736c44ac)](http://www.keyboard-layout-editor.com/#/gists/8c13f3b0b67861c5a3c0984de046201e)
 
 ## Wiring
 ![Wiring](https://github.com/slabua/keyboards/assets/1002978/83184bdd-ee96-43af-83b3-58b1c80f69a0)
